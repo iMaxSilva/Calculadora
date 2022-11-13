@@ -1,8 +1,9 @@
 
 <div align="center">
-# Calculadora 📊
+### Calculadora 📊
 <hr></hr> 
 <p><h4>Essa aplicação é uma calculadora interativa que realiza quatro funções (Adição, Subtração, Multiplicação e Divisão.)</h4></p>
+</div>
 
 ### Tema
 <p>Para a escolha dos temas foi utilizado <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme">Prefers-Color-Scheme</a> que é um recurso que verifica se o usuário prefere o tema de cor claro ou escuro.</p>  
@@ -29,4 +30,4 @@ $ git clone https://github.com/iMaxSilva/Calculadora.git
 $ cd Calculadora
 
 ```
-</div>
+

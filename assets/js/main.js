@@ -17,7 +17,7 @@ function calcular () {
 }
 
 function escreverDisplay (texto, incrementador) {    
-    incrementador > 9 ? '' : display.value += texto; // Se Incrementador for maior que 9, não escreve nada.
+    incrementador > 14 ? '' : display.value += texto; // Se Incrementador for maior que 9, não escreve nada.
 }
 
 function apagarNumeros() {
@@ -30,8 +30,6 @@ function apagarNumeros() {
 
 const root = document.querySelector(':root');
 const divMenu = document.querySelector('.menu');
-
-
 
 const themes = {
     principal(){
@@ -54,7 +52,6 @@ const themes = {
         root.style.setProperty('--cl-text-btn-operador',   '#FFF');        
         root.style.setProperty('--cl-text-btn-calcular',   '#FFF');
         root.style.setProperty('--cl-text-btn-apagar',     '#FFF');
-
         
         root.style.setProperty('--display-principal',   '#0E4B72');
         root.style.setProperty('--display-secundario',  '#8B98A7');
@@ -90,12 +87,9 @@ const themes = {
         divMenu.innerHTML = `<a type="button" href="#" class="menu-btn fa-fw fa-solid fa-sun" onclick="themes.principal();"></a>
         <a href="https://github.com/iMaxSilva" type="button" class="menu-btn fa-fw fa-brands fa-github"></a>
         <a href="https://www.linkedin.com/in/imaxsilva/" type="button" class="menu-btn fa-fw fa-brands fa-linkedin"></a>`;
-        
     }
 }
 
 const temaEscuro  = window.matchMedia("(prefers-color-scheme: dark)");
 const temaClaro = window.matchMedia("(prefers-color-scheme: light)");
-
-
 temaEscuro.matches ? themes.dark() : themes.principal()

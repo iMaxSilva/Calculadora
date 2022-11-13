@@ -27,9 +27,7 @@
     --cl-text-btn-operador: #fff;
     --cl-text-btn-calcular: #fff;
     --cl-text-btn-apagar: #fff;
-    
-    
-    
+  
 }
 
 body {
@@ -148,8 +146,6 @@ body {
     border: 0px;
     margin: 0 30px;
 }
-
-
 
 a {
     text-decoration: none;

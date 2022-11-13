@@ -17,7 +17,7 @@ function calcular () {
 }
 
 function escreverDisplay (texto, incrementador) {    
-    incrementador > 14 ? '' : display.value += texto; // Se Incrementador for maior que 9, não escreve nada.
+    incrementador > 14 ? '' : display.value += texto; // Se Incrementador for maior que 14, não escreve nada.
 }
 
 function apagarNumeros() {

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <script src="https://kit.fontawesome.com/3669901b63.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    
+</head>
+<body>
+    <section class="container">
+        <div class="display">
+            <div id="textoDisplay2"></div>
+            <input id="textoDisplay"></input>
+        </div>              
+        <div class="teclado">
+            <button class="btn-principal cl-btn-apagar" onclick="apagarNumeros()">C</button>
+            <button class="btn-principal cl-btn-principal" onclick="escrever('(');">(</button>
+            <button class="btn-principal cl-btn-principal" onclick="escrever(')');">)</button>
+            <button class="btn-principal cl-btn-operador" onclick="tecladoOperador('dividir');">/</button>
+        </div>
+        <div class="teclado">
+            <button class="btn-principal cl-btn-principal" onclick="escrever(7);">7</button>
+            <button class="btn-principal cl-btn-principal" onclick="escrever(8);">8</button>
+            <button class="btn-principal cl-btn-principal" onclick="escrever(9);">9</button>
+            <button class="btn-principal cl-btn-operador" onclick="tecladoOperador('multiplicar');">x</button>
+        </div>
+        <div class="teclado">
+            <button class="btn-principal cl-btn-principal" onclick="escrever(4);">4</button>
+            <button class="btn-principal cl-btn-principal" onclick="escrever(5);">5</button>
+            <button class="btn-principal cl-btn-principal" onclick="escrever(6);">6</button>
+            <button class="btn-principal cl-btn-operador" onclick="tecladoOperador('subtrair');">-</button>
+        </div>
+        <div class="teclado">
+            <button class="btn-principal cl-btn-principal" onclick="escrever(1);">1</button>
+            <button class="btn-principal cl-btn-principal" onclick="escrever(2);">2</button>
+            <button class="btn-principal cl-btn-principal" onclick="escrever(3);">3</button>
+            <button class="btn-principal cl-btn-operador" onclick="tecladoOperador('somar');">+</button>
+        </div>
+        <div class="teclado">
+            <button class="btn-principal cl-btn-principal" onclick="escrever(0);">0</button>
+            <button class="btn-principal cl-btn-principal" onclick="escrever(00);">00</button>
+            <button class="btn-principal cl-btn-principal" onclick="escrever('.');">.</button>
+            <button class="btn-principal cl-btn-calcular" onclick="calcular();">=</button>
+        </div>
+        <div class="menu">
+            <a type="button" href="#" class="menu-btn fa-fw fa-solid fa-moon" onclick="themes.dark();"></a>
+            <a href="https://github.com/iMaxSilva" type="button" class="menu-btn fa-fw fa-brands fa-github"></a>
+            <a href="https://www.linkedin.com/in/imaxsilva/" type="button" class="menu-btn fa-fw fa-brands fa-linkedin"></a>
+        </div>
+    </section>
+    
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    transition-duration: 2s;
+    
+}
+
+:root {
+    /* Tema Principal */
+    --cl-fundo:#7EB8DF;
+    --cl-container: #cde3f3af;
+    --cl-menu:#cadde7b4;
+
+    --cl-icon:#09324D;
+    --cl-text-display-principal: #0E4B72;
+    --cl-text-display-secundario: #8B98A7;
+    
+    --cl-btn-principal: #49A2F2;
+    --cl-btn-secundario:#0F4C73;
+    --cl-btn-operador: #F1A634;
+    --cl-btn-calcular: #28CF55;
+    --cl-btn-apagar: #F2686B;
+
+    --cl-text-btn-principal: #fff;
+    --cl-text-btn-secundario: #fff;
+    --cl-text-btn-operador: #fff;
+    --cl-text-btn-calcular: #fff;
+    --cl-text-btn-apagar: #fff;
+    
+    
+    
+}
+
+body {
+    background-color: var(--cl-fundo);
+    margin: 0
+}
+
+/* Cores Botão */
+.cl-btn-principal {
+    background-color: var(--cl-btn-principal);
+    color: var(--cl-text-btn-principal);
+}
+.cl-btn-secundario {
+    background-color: var(--cl-btn-secundario);
+    color: var(--cl-text-btn-secundario);
+}
+.cl-btn-operador {
+    background-color: var(--cl-btn-operador);
+    color: var(--cl-text-btn-operador);
+}
+.cl-btn-calcular {
+    background-color: var(--cl-btn-calcular);
+    color: var(--cl-text-btn-calcular);
+}
+.cl-btn-apagar {
+    background-color: var(--cl-btn-apagar);
+    color: var(--cl-text-btn-apagar);
+}
+
+/* Display */
+.display {
+    background-color: #cde3f300;
+    width: 300px;
+    height: 70px;
+    margin-bottom: 20px;    
+}
+.display > #textoDisplay {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    text-align: end;
+    width: 257px;
+    background-color: #ffffff00;
+    border: 0px;
+    color: var(--cl-text-display-principal);
+    padding: 28px 7px 30px 30px;
+    font-size: 36px;
+    font-weight: 500;
+}
+.display > #textoDisplay2 {
+    width: 257px;
+    position: absolute;
+    text-align: end;
+    padding: 0px 7px 0px 30px;
+    background-color: #ffffff00;
+    color: var(--cl-text-display-secundario);
+}
+
+/* Teclado */
+.teclado {
+    display: grid;
+    grid-template-columns: auto auto auto 60px;
+    margin-bottom: 15px;
+}
+.btn-principal {    
+    width: 60px;
+    height: 55px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    position: relative;
+    
+    /* flex para alinhar conteúdo*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-secundario {
+    background-color: #0F4C73;
+    border: 0px;
+    border-radius: 15px;
+    width: 61px;
+    height: 31px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* Container */
+.container {
+    background-color: var(--cl-container);
+    max-width: 300px;
+    margin: 250px auto;
+    padding:20px;
+    border-radius: 20px;
+}
+
+/* Menu */
+
+.menu {
+    background-color: var(--cl-menu);
+    max-width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top:30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-btn {
+    background-color: #b6a9a900;
+    color: var(--cl-icon);
+    border: 0px;
+    margin: 0 30px;
+}
+
+
+
+a {
+    text-decoration: none;
+}

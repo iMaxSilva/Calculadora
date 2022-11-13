@@ -8,35 +8,11 @@ function escrever (numero) {
     escreverDisplay(numero, incrementador);
 }
 
-function tecladoOperador (operador) {
-    if (operador === 'somar'){
-        incrementador = 0;        
-        displaySecundario.innerHTML += `${display.value}+`
-        display.value = '';
-    }
-    else if (operador === 'subtrair'){
-        incrementador = 0;
-        displaySecundario.innerHTML += `${display.value}-`
-        display.value = '';
-    }
-
-    else if (operador === 'multiplicar'){
-        incrementador = 0;
-        displaySecundario.innerHTML += `${display.value}*`
-        display.value = '';
-    }
-    else if (operador === 'dividir'){
-        incrementador = 0;
-        displaySecundario.innerHTML += `${display.value}/`
-        display.value = '';
-    }
-}
-
 function calcular () {
     incrementador = 0;
-    expr = displaySecundario.innerHTML + display.value
+    expr = displaySecundario.value + display.value
     let calculo = eval(`${expr}`);
-        displaySecundario.innerHTML = ''
+        displaySecundario.value = display.value
         display.value = calculo;
 }
 
@@ -47,7 +23,7 @@ function escreverDisplay (texto, incrementador) {
 function apagarNumeros() {
     incrementador = 0;
     display.value = '';
-    displaySecundario.innerHTML = '';
+    displaySecundario.value = '';
 }
 
 /* Temas */

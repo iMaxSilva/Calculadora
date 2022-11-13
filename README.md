@@ -2,9 +2,10 @@
 <div align="center">
   
 # Calculadora
+<p><h4>Essa aplicação é uma calculadora interativa que realiza quatro funções (Adição, Subtração, Multiplicação e Divisão.)</h4></p>
 <img src="https://media3.giphy.com/media/ggbcK6pJTgogoH11w4/giphy.gif?cid=790b76113569372a84b1b81b3f8a275d312fb2ff7e781726&rid=giphy.gif&ct=g" alt="Calculadora" srcset="">
 <hr></hr>
-<p><h4>Essa aplicação é uma calculadora interativa que realiza quatro funções (Adição, Subtração, Multiplicação e Divisão.)</h4></p>
+
 </div>
 
 ### Tema

@@ -1,6 +1,8 @@
 
 <div align="center">
-### Calculadora 📊
+  
+# Calculadora IMC
+
 <hr></hr> 
 <p><h4>Essa aplicação é uma calculadora interativa que realiza quatro funções (Adição, Subtração, Multiplicação e Divisão.)</h4></p>
 </div>

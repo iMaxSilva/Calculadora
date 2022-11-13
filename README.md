@@ -9,7 +9,7 @@
 ### Tema
 <p>Para a escolha dos temas foi utilizado <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme">Prefers-Color-Scheme</a> que é um recurso que verifica se o usuário prefere o tema de cor claro ou escuro.</p>  
 
-<p>O tema claro foi inspirado em um projeto que achei interessante na internet chamado Calculator App UI UX criado pelo Mohammad Shahnewaz Karim. Já o tema escuro utilizando a mesma base procurei escurecer o fundo dos botões e clarear as letras.</p>
+<p>O tema claro foi inspirado em um projeto que achei interessante na internet chamado <a href="https://www.creativefabrica.com/pt/product/calculator-app-ui-ux">Calculator App UI UX</a> criado pelo Mohammad Shahnewaz Karim. Já o tema escuro utilizando a mesma base procurei escurecer o fundo dos botões e clarear as letras.</p>
 <hr></hr>
 
 ### Tecnologias utilizadas
@@ -24,10 +24,10 @@
 <p>Para clonar o aplicativo, você vai precisar baixar o Git e instalar no seu computador. Após instalado, utilize os seguintes comandos</p>
 
 ```bash
-# Clone this repository
+# Clonar o repositório
 $ git clone https://github.com/iMaxSilva/Calculadora.git
 
-# Go into the repository
+# Entrar no repositório clonado
 $ cd Calculadora
 
 ```
